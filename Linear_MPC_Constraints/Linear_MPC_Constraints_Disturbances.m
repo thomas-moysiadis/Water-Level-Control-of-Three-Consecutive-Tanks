@@ -1,6 +1,9 @@
 clear
 clc
 
+%Add shared function folder to path
+addpath(genpath(fullfile(fileparts(mfilename('fullpath')), '..', 'functions')));
+
 %Define Constants
 H1sp = 0.12; %m
 H2sp = 0.1; %m
