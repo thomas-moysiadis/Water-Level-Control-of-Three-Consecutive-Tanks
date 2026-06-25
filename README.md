@@ -10,9 +10,9 @@ This project models and controls a three‑tank water level system using nonline
 
 ## Controllers Implemented
 - Linear MPC based on the linearized model, without embedded constraints (constraints handled externally), tested with and without disturbances
-- Linear MPC based on the linearized model, with embedded constraints (constraints handled externally), tested with and without disturbances
+- Linear MPC based on the linearized model, with embedded constraints, tested with and without disturbances
 - Nonlinear MPC based on the nonlinear model, without embedded constraints (constraints handled externally), tested with and without disturbances
-- Nonlinear MPC based on the nonlinear model, with embedded constraints (constraints handled externally), tested with and without disturbances
+- Nonlinear MPC based on the nonlinear model, with embedded constraints, tested with and without disturbances
 
 ## Repository Contents
 - `Linear_MPC_No_Constraints/`
@@ -30,7 +30,7 @@ This project models and controls a three‑tank water level system using nonline
 - `functions/`
   - `myStateFunction.m` - Nonlinear state-space model
   - `myStateJacobian.m` - Jacobian of nonlinear ODEs with respect to states and inputs
-  - `obj_fun.m` - Objective function for the linear MPC with embedded constraints
+  - `obj_fun.m` - Quadratic objective function for the linear MPC with embedded constraints
   - `ode_fun.m` - Nonlinear model used for control feedback
 
 ## How to Run
