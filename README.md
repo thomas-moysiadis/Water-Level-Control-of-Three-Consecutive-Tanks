@@ -40,4 +40,4 @@ This project models and controls a three‑tank water level system using nonline
   - loads the model and parameters
   - runs the MPC simulation
   - applies constraints (embedded or external)
-  - generates plots of tank levels and control inputs
+  - generates plots of tank levels, control inputs and input increments
