@@ -29,7 +29,7 @@ This project models and controls a three‑tank water level system using nonline
   - `Non_Linear_MPC_Constraints_Disturbances.m`
 - `functions/`
   - `myStateFunction.m` - Nonlinear state-space model
-  - `myStateJacobian.m` Jacobian of nonlinear ODEs with respect to states and inputs
+  - `myStateJacobian.m` - Jacobian of nonlinear ODEs with respect to states and inputs
   - `obj_fun.m` - Objective function for the linear MPC with embedded constraints
   - `ode_fun.m` - Nonlinear model
 
